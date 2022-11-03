@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300;1,400;1,700&family=Lora:wght@400;500;700&display=swap');
+
+body {
+    background-color: #FEFEDF;
+     
+}
+
+.Banner {
+    background-color: #FEFEDF;
+}
+
+.heading {
+    font-family: 'Lora', sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+}
+
+li:hover {
+    
+    border-bottom: 1px solid #FBEAFF;
+    transition: all 0.7s ease-in;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+   transform: scale(1.1);
+   transition: all 0.5s ease-in;
+}
+
+.button {
+    border: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+hr {
+    margin-top: 20px;
+    color: brown;
+    box-shadow: 20px -6px teal;
+    width: 120px;
+    margin-right: auto;
+}
+
+.details {
+    font-family: 'Lora', sans-serif;
+}
+
+.about {
+    background-color: #FBEAFF;
+}
+
+.skills {
+    background-color: #FBEAFF;
+}
+
+@keyframes aboutAnimation {
+    0% {
+        translate: -500px;
+    }
+    25% {
+        translate: -250px;
+    }
+    50% {
+        translate: -100px;
+    }
+    75% {
+        translate: -40px;
+    }
+    100% {
+        translate: 0px;
+    }
+}
+
+
+
+li {
+    text-decoration: none;
+}
